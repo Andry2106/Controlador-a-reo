@@ -1,0 +1,9 @@
+﻿.botoncardp {
+    height: 45px;
+    width: 33%;
+    border-radius: 25px;
+    background-color: #093A84;
+    color: white;
+    border: solid;
+    font-size: 19px;
+}

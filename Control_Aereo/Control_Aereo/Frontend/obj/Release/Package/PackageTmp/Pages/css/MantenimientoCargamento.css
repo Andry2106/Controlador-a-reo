@@ -1,0 +1,96 @@
+﻿.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 160px);
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 80%;
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card-header {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+    .card-header h2{
+        font-size: 3em;
+        margin-bottom: 10px;
+    }
+
+.card-body {
+    padding: 20px;
+}
+
+.gridview-container {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.styled-gridview {
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+}
+
+    .styled-gridview th {
+        background-color: #093A84;
+        color: white;
+        padding: 10px;
+    }
+
+    .styled-gridview td {
+        background-color: white;
+        padding: 10px;
+        border-bottom: 1px solid #ddd;
+    }
+
+.select-button {
+    border-radius: 10px;
+    width: 95%;
+    max-width: 600px;
+    margin: 0 auto 20px;
+    height: 40px;
+    background-color: #093A84;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+.styled-linkbutton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #093A84;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+    .styled-linkbutton:hover {
+        background-color: #0d63b0;
+    }
+
+.logosmall {
+    width: 20px; /* Ancho deseado del logo */
+    height: 20px; /* Autoajuste de la altura para mantener la proporción */
+}

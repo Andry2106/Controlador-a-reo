@@ -1,0 +1,155 @@
+﻿.content {
+    position: absolute;
+    display: inline;
+    align-items: center;
+    justify-content: left;
+    height: calc(100vh - 160px);
+}
+
+.card {
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    height: 74%;
+    width: 15%;
+    font-family: 'Roboto', sans-serif;
+    justify-content: left;
+    margin-left: 20px;
+    top: 120px;
+    color: #093A84;
+    overflow-y: scroll;
+}
+
+
+.card-header {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #093A84;
+}
+
+.card-body {
+    padding: 20px;
+    color: #093A84;
+    text-align: center;
+    overflow-y: scroll;
+}
+    .card-body > * {
+        margin-top: 13px;
+    }
+
+.centrocontent {
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 160px);
+    display: flex;
+    overflow-y: scroll;
+}
+
+.cardcentro {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    height: 90%;
+/*    width: 80%;
+*/    margin-left: 250px;
+    font-family: 'Roboto', sans-serif;
+    color: #093A84;
+    overflow-y: scroll;
+}
+
+.cardcentro-header {
+    height: 20%;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    line-height: 80px;
+    color: #093A84;
+}
+
+.cardcentro-body {
+    padding: 20px;
+    color: #093A84;
+    overflow-y: scroll;
+}
+
+
+.cardadentro {
+/*    display: inline-block;
+    text-align: center;
+    border-radius: 15px;
+    width: 20%;
+    height: 90%;
+    background-color: white;
+    margin-bottom: 10px;
+    padding: 10px;
+    padding-top: 30px;
+    color: #093A84;
+    overflow-y: scroll;*/
+    color:green;
+}
+    .cardadentro > * {
+        margin-top: 20px; 
+    }
+
+.carderecha {
+    display: inline-block;
+    text-align: center;
+    border-radius: 15px;
+    width: 60%;
+    height: 90%;
+    background-color: white;
+    margin-bottom: 10px;
+    padding: 10px;
+    padding-top: 30px;
+    color: #093A84;
+    overflow-y: scroll;
+}
+    .carderecha > * {
+        margin-top: 23px;
+    }
+
+.botones {
+    display: inline-block; 
+    vertical-align: top; 
+}
+    .botones > * {
+        margin-top: 5px;
+    }
+
+.botonautorizar {
+    color: white;
+    background-color: limegreen;
+    padding: 10px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.botondenegar {
+    color: white;
+    background-color: red;
+    padding: 10px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.textos {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.botonvalidar {
+    background-color: #093A84;
+    color: white;
+    width:100%;
+    border-radius:10px;
+    height:30px;
+}

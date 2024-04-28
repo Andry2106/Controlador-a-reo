@@ -1,0 +1,187 @@
+﻿.container-card {
+    width: 30%;
+    height: 590px;
+    border-radius: 30px;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 55px;
+    position: relative; /* Importante para el posicionamiento del pseudo-elemento */
+    overflow: hidden; /* Para ocultar el desenfoque que se desborda */
+    color: white;
+    display: block;
+}
+
+    .container-card::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url('../../assets/2.png');
+        background-size: cover;
+        z-index: -1; /* Colocar detrás del contenido */
+        border-radius: 30px; /* Mantener el borde redondeado */
+    }
+
+.custom-dropdown {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: rgba(99, 136, 191, 0.5); /* Color semitransparente */
+    border: 2px solid #ced4da;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    width: 100%;
+    max-width: 300px; /* Ajusta el ancho máximo según sea necesario */
+    transition: border-color 0.3s ease; /* Animación de transición para el cambio de color del borde */
+}
+
+    .custom-dropdown:hover,
+    .custom-dropdown:focus {
+        border-color: #80bdff; /* Cambia el color del borde al pasar el ratón o enfocar */
+    }
+
+    .custom-dropdown option {
+        background-color: #ffffff;
+        color: #495057;
+    }
+
+        /* Estilos para las opciones del DDL al pasar el ratón */
+        .custom-dropdown option:hover {
+            background-color: #f0f0f0;
+        }
+
+.botonescuadro {
+    display: block;
+    align-items: center;
+    background-color: rgba(99, 136, 191, 0.5); /* Color semitransparente */
+    border: 2px solid #ced4da;
+    color: white;
+    border-radius: 4px;
+    height: 35px;
+    width: 300px;
+    margin-top: 10px;
+    margin-left: 138px;
+    margin: auto;
+    margin-block: 20px;
+}
+
+    .botonescuadro:hover {
+        background-color: white;
+        color: #093A84;
+    }
+
+/* Estilos para el contenedor del calendario */
+.calendar-container {
+    text-align: center; /* Centrar el calendario horizontalmente */
+    margin: 0 auto; /* Centrar el calendario horizontalmente */
+    max-width: 200px; /* Ajusta el ancho máximo según sea necesario */
+}
+
+/* Estilos para el calendario */
+.custom-calendar {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 12px; /* Reducir el tamaño de fuente del calendario */
+    background-color: #ffffff; /* Fondo blanco */
+    color: #093A84; /* Color de texto */
+}
+
+    /* Estilos para los días de la semana */
+    .custom-calendar th {
+        background-color: #ffffff;
+        border: 1px solid #dddddd;
+        padding: 4px; /* Reducir el espacio interior */
+        text-align: center;
+    }
+
+    /* Estilos para los días del calendario */
+    .custom-calendar td {
+        border: 1px solid #dddddd;
+        padding: 4px; /* Reducir el espacio interior */
+        text-align: center;
+    }
+
+        /* Estilos para los días del mes */
+        .custom-calendar td a {
+            display: block;
+            color: #093A84; /* Color de texto */
+            text-decoration: none;
+        }
+
+            /* Estilos para los días seleccionados */
+            .custom-calendar td a:hover {
+                background-color: #f0f0f0;
+            }
+
+    /* Estilos para los días fuera del mes */
+    .custom-calendar .other-month {
+        color: #aaaaaa;
+    }
+
+/* Estilos para el modal */
+.modal {
+    display: none; /* Ocultar el modal por defecto */
+    position: fixed; /* Posición fija */
+    z-index: 1000; /* Z-index alto para que esté por encima del resto del contenido */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro semi-transparente */
+}
+
+/* Estilos para el contenido del modal */
+.modal-content {
+    background-color: #ffffff;
+    margin: 20% auto; /* Centrar verticalmente */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 400px; /* Ancho máximo */
+}
+
+/* Estilos para el botón de cierre del modal */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+    .close:hover,
+    .close:focus {
+        color: #000;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+
+.custom-dropdown:hover {
+    background-color: white;
+    color: #093A84;
+}
+
+.btnAbrirCalendario {
+    background-color: rgba(99, 136, 191, 0.5); /* Color semitransparente */
+    border: 2px solid #ced4da;
+    color: white;
+    border-radius: 4px;
+    height: 35px;
+    width: 300px;
+}
+
+    .btnAbrirCalendario:hover {
+        background-color: white;
+        color: #093A84;
+    }
+
+.espaciado {
+    margin-top: 20px;
+}

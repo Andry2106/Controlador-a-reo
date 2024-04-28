@@ -1,0 +1,49 @@
+﻿.segundo {
+    position: relative;
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    width: 65%;
+    margin: 0 auto;
+    margin-top: 22px;
+    border-radius: 10px;
+    color: black; /* Color de texto blanco */
+    text-align: center; /* Centrar horizontalmente el texto */
+    display: block; /* Usar flexbox para centrar verticalmente */
+    justify-content: center; /* Centrar horizontalmente */
+    padding-top: 30px;
+    bottom: 260px;
+    font-size: 20px;
+    /*align-items: center;*/ /* Centrar verticalmente */
+    /*z-index: -1;*/
+}
+
+.elementos {
+    display: inline-flex;
+    margin-inline: 50px;
+}
+
+.elementos2 {
+    display: block;
+    margin-right: 27px;
+}
+
+.imagenselect {
+    width: 270px;
+    height: 120px;
+}
+
+.imagenselect2 {
+    width: 190px;
+    height: 120px;
+}
+
+.imagenselect3 {
+    width: 130px;
+    height: 120px;
+}
+
+.hyper{
+    padding-top:10px;
+}

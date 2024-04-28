@@ -1,0 +1,291 @@
+﻿.content {
+    position: absolute;
+    display: inline;
+    align-items: center;
+    justify-content: left;
+    height: calc(100vh - 160px);
+}
+
+.card {
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    height: 74%;
+    width: 15%;
+    font-family: 'Roboto', sans-serif;
+    justify-content: left;
+    margin-left: 20px;
+    top: 120px;
+    color: #093A84;
+}
+
+
+.card-header {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #093A84;
+    font-size: 2em;
+}
+
+.card-body {
+    padding: 20px;
+    color: #093A84;
+    text-align: center;
+}
+
+    .card-body > * {
+        margin-top: 13px;
+    }
+
+.centrocontent {
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 160px);
+    display: flex;
+}
+
+
+.cardcentro-header {
+    height: 19%;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    line-height: 80px;
+    color: #093A84;
+    font-size: 2em;
+    margin-bottom: -10px;
+}
+
+
+
+.carderecha {
+    border: 1px solid #ddd;
+    display: inline-block;
+    text-align: center;
+    border-radius: 15px;
+    width: 60%;
+    height: 90%;
+    background-color: white;
+    margin-bottom: 10px;
+    padding: 10px;
+    padding-top: 30px;
+    color: #093A84;
+    border: 1px solid #ddd;
+}
+
+    .carderecha > * {
+        margin-top: 23px;
+    }
+
+.botones {
+    display: inline-block;
+    vertical-align: top;
+}
+
+    .botones > * {
+        margin-top: 5px;
+    }
+
+.botonautorizar {
+    color: white;
+    background-color: limegreen;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.botondenegar {
+    color: white;
+    background-color: red;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.textos {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.btmSelecionarAvion {
+    background-color: #093A84;
+    color: white;
+    width: 100%;
+    border-radius: 10px;
+    height: 30px;
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+
+.AvionImagen {
+    width: 224px;
+    height: 126px;
+}
+
+.info-avion {
+    align-items: self-start;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    width: 100%;
+    height: 140%;
+    background-color: white;
+    margin-bottom: 10px;
+    padding: 10px;
+    padding-top: 20px;
+    color: #093A84;
+    margin-inline: 15px;
+    line-height: 2;
+    font-size: 1.1em;
+    border: 1px solid #ddd;
+}
+
+.card-body gridview-container {
+    align-content: center;
+}
+
+
+.styled-gridview {
+    align-items: center;
+    border-collapse: separate;
+    border-spacing: 10px;
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+    .styled-gridview th {
+        background-color: #093A84;
+        color: white;
+        padding: 10px;
+    }
+
+    .styled-gridview td {
+        background-color: white;
+        padding: 10px;
+        border-bottom: 1px solid #ddd;
+    }
+
+
+/* Add your CSS styles here */
+
+
+.cardcentro {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    height: 90%;
+    width: 80%;
+    margin-left: 250px;
+    font-family: 'Roboto', sans-serif;
+    color: #093A84;
+}
+
+.cardcentro-header {
+    height: 19%;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    line-height: 80px;
+    color: #093A84;
+    font-size: 2em;
+    margin-bottom: -10px;
+}
+
+.cardcentro-body {
+    padding: 20px;
+    color: #093A84;
+    width: 400%;
+    margin-left: 150px;
+}
+
+.cardadentro {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 15px;
+    width: 20%;
+    height: 200%;
+    background-color: white;
+    margin-bottom: 10px;
+    color: #093A84;
+    border: 1px solid #ddd;
+}
+
+    .cardadentro > * {
+        margin-top: 20px;
+    }
+
+    .cardadentro h2 {
+        font-size: 1em;
+    }
+
+.carderecha {
+    border: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    border-radius: 15px;
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    margin-bottom: 10px;
+    padding: 5px;
+    color: #093A84;
+    border: 1px solid #ddd;
+}
+
+    .carderecha > * {
+        margin-top: 10px;
+    }
+
+.btmAnadir {
+    background-color: #093A84;
+    margin-top: 80px;
+    margin-left: 80px;
+    text-align: center;
+    color: white;
+    width: 30%;
+    border-radius: 10px;
+    height: 30px;
+    font-size: 1.5em;
+}
+
+
+.gridview-y-botones-container {
+    display: flex; /* Habilita flexbox */
+    justify-content: space-between; /* Alinea los elementos al inicio y al final del contenedor */
+    align-items: start; /* Alinea los elementos al inicio verticalmente */
+}
+
+.gridview-wrapper {
+    width: 75%; /* Ajusta según sea necesario para el GridView */
+}
+
+.botones-wrapper {
+    display: flex;
+    flex-direction: column; /* Mantiene los botones en columna */
+    justify-content: flex-start; /* Alinea los botones al inicio */
+    align-items: center; /* Centra los botones horizontalmente */
+    width: 25%; /* Ajusta según sea necesario para los botones */
+}
+
+.btmAnadir {
+    margin-bottom: -25px; /* Espaciado entre botones */
+    width: 85%; /* Hace que los botones ocupen todo el ancho del contenedor de botones */
+}body {
+}

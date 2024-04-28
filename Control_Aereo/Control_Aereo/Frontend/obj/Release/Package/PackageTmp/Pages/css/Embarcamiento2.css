@@ -1,0 +1,299 @@
+﻿.content {
+    position: absolute;
+    display: inline;
+    align-items: center;
+    justify-content: left;
+    height: calc(100vh - 160px);
+}
+
+.card {
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    height: 78%;
+    width: 25%;
+    font-family: 'Roboto', sans-serif;
+    justify-content: left;
+    margin-left: 10px;
+    top: 85px;
+    color: #093A84;
+}
+
+.card-header {
+    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #093A84;
+    font-size: 1em;
+}
+
+.card-body {
+    padding: 20px;
+    color: #093A84;
+    text-align: center;
+}
+
+    .card-body > * {
+        margin-top: 10px;
+    }
+
+.centrocontent {
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 160px);
+    display: flex;
+}
+
+.cardcentro-header {
+    height: 19%;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    line-height: 80px;
+    color: #093A84;
+    font-size: 1.5em;
+    margin-bottom: -10px;
+}
+
+.carderecha {
+    border: 1px solid #ddd;
+    display: inline-block;
+    text-align: center;
+    border-radius: 15px;
+    width: 60%;
+    height: 90%;
+    background-color: white;
+    margin-bottom: 10px;
+    padding: 10px;
+    padding-top: 30px;
+    color: #093A84;
+    border: 1px solid #ddd;
+}
+
+    .carderecha > * {
+        margin-top: 23px;
+    }
+
+.botones {
+    display: inline-block;
+    vertical-align: top;
+}
+
+    .botones > * {
+        margin-top: 5px;
+    }
+
+
+.btmSelecionarAvion {
+    background-color: #093A84;
+    text-align: center;
+    color: white;
+    width: 98%;
+    border-radius: 10px;
+    height: 35px;
+    font-size: 1.5em;
+    margin-bottom: 5px;
+    margin: 10px;
+}
+
+.AvionImagen {
+    width: 200px;
+    height: 100px;
+}
+
+.info-avion {
+    align-items: self-start;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    padding: 10px;
+    color: #093A84;
+    line-height: 2.8;
+    font-size: 1em;
+    border: 1px solid #ddd;
+}
+
+.cardcentro {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    height: 98%;
+    width: 73%;
+    margin-left: 440px;
+    font-family: 'Roboto', sans-serif;
+    color: #093A84;
+}
+
+.cardcentro-header {
+    height: 10%;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    line-height: 40px;
+    color: #093A84;
+    font-size: 1.5em;
+}
+
+.cardcentro-body {
+    padding: 20px;
+    color: #093A84;
+    width: 100%;
+    align-content: center;
+}
+
+.cardadentro {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 15px;
+    width: 100%;
+    height: 200%;
+    background-color: white;
+    margin-bottom: 10px;
+    color: #093A84;
+    border: 1px solid #ddd;
+}
+
+    .cardadentro > * {
+        margin-top: 30px;
+    }
+
+    .cardadentro h2 {
+        font-size: 1.5em;
+    }
+
+.carderecha {
+    border: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    border-radius: 15px;
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    margin-bottom: 10px;
+    padding: 5px;
+    color: #093A84;
+    border: 1px solid #ddd;
+}
+
+    .carderecha > * {
+        margin-top: 10px;
+    }
+
+.styled-linkbutton {
+    background-color: #093A84;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+.select-button {
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 60%;
+    max-width: 300px;
+    margin: 0 auto 20px;
+    height: 40px;
+    background-color: #093A84;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+
+.gridview-container {
+    max-height: 400px;
+    overflow-y: auto;
+    background-color: white;
+}
+
+.styled-gridview {
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+    .styled-gridview th {
+        background-color: #093A84;
+        color: white;
+        padding: 10px;
+    }
+
+    .styled-gridview td {
+        padding: 10px;
+        border-bottom: 1px solid #ddd;
+    }
+
+
+.DDLPuertas {
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    border: solid 1px;
+    border-color: black;
+    margin-bottom: 100px;
+}
+
+.select-button-Embarcamiento {
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 60%;
+    max-width: 300px;
+    margin: 0 auto 20px;
+    height: 40px;
+    background-color: #093A84;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+.custom-dropdownlist {
+    width: 20%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+    font-size: 14px;
+    outline: none;
+}
+
+    .custom-dropdownlist:hover,
+    .custom-dropdownlist:focus {
+        border-color: #007bff;
+    }
+
+    .custom-dropdownlist option {
+        background-color: #fff;
+        color: #333;
+        font-size: 14px;
+    }

@@ -1,0 +1,21 @@
+﻿.texboxx{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: rgba(99, 136, 191, 0.5); /* Color semitransparente */
+    border: 2px solid #ced4da;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    width: 45%;
+    max-width: 300px; /* Ajusta el ancho máximo según sea necesario */
+    transition: border-color 0.3s ease; /* Animación de transición para el cambio de color del borde */
+    text-align: center;
+}
+    .texboxx:hover {
+        background-color: white;
+        color: #093A84;
+    }

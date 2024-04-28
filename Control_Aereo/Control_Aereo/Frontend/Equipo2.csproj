@@ -1,0 +1,327 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C91AC423-7B51-44FF-81E4-30415D85F9D3}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Frontend</RootNamespace>
+    <AssemblyName>Frontend</AssemblyName>
+    <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44360</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.DynamicData">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Entity">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.ApplicationServices">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Configuration">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Services">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.EnterpriseServices">
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Global.asax" />
+    <Content Include="Pages\assets\2.png" />
+    <Content Include="Pages\assets\aplicar_filtro\fondo_aplicar_filtro.jpg" />
+    <Content Include="Pages\assets\av1.jpg" />
+    <Content Include="Pages\assets\Avion.png" />
+    <Content Include="Pages\assets\despegue\avion_despegue.gif" />
+    <Content Include="Pages\assets\filtro_avion\fondo_filtro.png" />
+    <Content Include="Pages\assets\fondo.jpg" />
+    <Content Include="Pages\assets\fondo2.jpeg" />
+    <Content Include="Pages\assets\fondo4.jpg" />
+    <Content Include="Pages\assets\fondo_filtro.png" />
+    <Content Include="Pages\assets\icono_aereopuerto.gif" />
+    <Content Include="Pages\assets\icono_destino.gif" />
+    <Content Include="Pages\assets\icono_horario.gif" />
+    <Content Include="Pages\assets\inicio\1.png" />
+    <Content Include="Pages\assets\inicio\2.png" />
+    <Content Include="Pages\assets\inicio\3.jpg" />
+    <Content Include="Pages\assets\inicio\5.png" />
+    <Content Include="Pages\assets\inicio\elemento3.png" />
+    <Content Include="Pages\assets\inicio\elemento4.jpg" />
+    <Content Include="Pages\assets\inicio\elemento5.png" />
+    <Content Include="Pages\assets\inicio\elemento6.jpg" />
+    <Content Include="Pages\assets\inicio\gif1.gif" />
+    <Content Include="Pages\assets\inicio\logo.svg" />
+    <Content Include="Pages\assets\logo.png" />
+    <Content Include="Pages\assets\main\main_fondo.jpg" />
+    <Content Include="Pages\css\aplicarfiltro\aplicarfiltro2.css" />
+    <Content Include="Pages\css\aplicarfiltro\botonesaplicar.css" />
+    <Content Include="Pages\css\aplicarfiltro\txtb.css" />
+    <Content Include="Pages\css\Desembarque.css" />
+    <Content Include="Pages\css\Despegue.css" />
+    <Content Include="Pages\css\Embarcamiento.css" />
+    <Content Include="Pages\css\Embarcamiento2.css" />
+    <Content Include="Pages\css\EmbarcamientoAviones.css" />
+    <Content Include="Pages\css\filtradovuelos\barra.css" />
+    <Content Include="Pages\css\filtradovuelos\botonCard.css" />
+    <Content Include="Pages\css\filtradovuelos\Calendario.css" />
+    <Content Include="Pages\css\filtradovuelos\Car2.css" />
+    <Content Include="Pages\css\filtradovuelos\Card1.css" />
+    <Content Include="Pages\css\filtradovuelos\filtrado2.css" />
+    <Content Include="Pages\css\filtradovuelos\fondo.css" />
+    <Content Include="Pages\css\filtradovuelos\primero.css" />
+    <Content Include="Pages\css\filtradovuelos\segundo.css" />
+    <Content Include="Pages\css\filtradovuelos\segundo2.css" />
+    <Content Include="Pages\css\gifs_despegue\gifsdespegue.css" />
+    <Content Include="Pages\css\Hangares.css" />
+    <Content Include="Pages\css\inicio\botonanimado.css" />
+    <Content Include="Pages\css\inicio\inicial.css" />
+    <Content Include="Pages\css\inicio\inicio2.css" />
+    <Content Include="Pages\css\inicio\Logo.css" />
+    <Content Include="Pages\css\inicio\slider3.css" />
+    <Content Include="Pages\css\ListadoVuelos.css" />
+    <Content Include="Pages\css\Login.css" />
+    <Content Include="Pages\css\main.css" />
+    <Content Include="Pages\css\main\main2.css" />
+    <Content Include="Pages\css\Validaciones.css" />
+    <Content Include="Pages\css\MantenimientoCargamento.css" />
+    <Content Include="Pages\css\ModalHangares.css" />
+    <Content Include="Pages\css\prueba.css" />
+    <Content Include="Pages\css\TablaEmbarcamiento.css" />
+    <Content Include="Pages\css\TablaHangares.css" />
+    <Content Include="Pages\webforms\AplicarFiltros.aspx" />
+    <Content Include="Pages\webforms\Desembarque.aspx" />
+    <Content Include="Pages\webforms\Despegue.aspx" />
+    <Content Include="Pages\webforms\EmbarcamientoAviones.aspx" />
+    <Content Include="Pages\webforms\FiltradoVuelos1.aspx" />
+    <Content Include="Pages\webforms\Hangares.aspx" />
+    <Content Include="Pages\webforms\Inicio.aspx" />
+    <Content Include="Pages\webforms\ListaVuelos.aspx" />
+    <Content Include="Pages\webforms\Login.aspx" />
+    <Content Include="Pages\webforms\MantenimientoCargamento.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataAccess\Conexion.cs" />
+    <Compile Include="DataAccess\DesembarqueData.cs" />
+    <Compile Include="DataAccess\DespegueData.cs" />
+    <Compile Include="DataAccess\EmbarcamientoData.cs" />
+    <Compile Include="DataAccess\HangaresData.cs" />
+    <Compile Include="DataAccess\ListaVuelosData.cs" />
+    <Compile Include="DataAccess\LoginUsersData.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Logic\DesembarqueLogic.cs" />
+    <Compile Include="Logic\DespegueLogic.cs" />
+    <Compile Include="Logic\EmbarcamientoLogic.cs" />
+    <Compile Include="Logic\HangaresLogic.cs" />
+    <Compile Include="Logic\ListaVuelosLogic.cs" />
+    <Compile Include="Logic\LoginUsersLogic.cs" />
+    <Compile Include="Pages\webforms\AplicarFiltros.aspx.cs">
+      <DependentUpon>AplicarFiltros.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\webforms\AplicarFiltros.aspx.designer.cs">
+      <DependentUpon>AplicarFiltros.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\webforms\Desembarque.aspx.cs">
+      <DependentUpon>Desembarque.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\webforms\Desembarque.aspx.designer.cs">
+      <DependentUpon>Desembarque.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\webforms\Despegue.aspx.cs">
+      <DependentUpon>Despegue.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\webforms\Despegue.aspx.designer.cs">
+      <DependentUpon>Despegue.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\webforms\EmbarcamientoAviones.aspx.cs">
+      <DependentUpon>EmbarcamientoAviones.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\webforms\EmbarcamientoAviones.aspx.designer.cs">
+      <DependentUpon>EmbarcamientoAviones.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\webforms\FiltradoVuelos1.aspx.cs">
+      <DependentUpon>FiltradoVuelos1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\webforms\FiltradoVuelos1.aspx.designer.cs">
+      <DependentUpon>FiltradoVuelos1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\webforms\Hangares.aspx.cs">
+      <DependentUpon>Hangares.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\webforms\Hangares.aspx.designer.cs">
+      <DependentUpon>Hangares.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\webforms\Inicio.aspx.cs">
+      <DependentUpon>Inicio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\webforms\Inicio.aspx.designer.cs">
+      <DependentUpon>Inicio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\webforms\ListaVuelos.aspx.cs">
+      <DependentUpon>ListaVuelos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\webforms\ListaVuelos.aspx.designer.cs">
+      <DependentUpon>ListaVuelos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Sitio.Master.cs">
+      <DependentUpon>Sitio.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Sitio.Master.designer.cs">
+      <DependentUpon>Sitio.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\webforms\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\webforms\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\webforms\MantenimientoCargamento.aspx.cs">
+      <DependentUpon>MantenimientoCargamento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\webforms\MantenimientoCargamento.aspx.designer.cs">
+      <DependentUpon>MantenimientoCargamento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <Content Include="Pages\Sitio.Master" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Models\" />
+    <Folder Include="Pages\css\alertas\" />
+    <Folder Include="Pages\js\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>50119</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44360/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Este proyecto hace referencia a los paquetes NuGet que faltan en este equipo. Use la restauración de paquetes NuGet para descargarlos. Para obtener más información, consulte http://go.microsoft.com/fwlink/?LinkID=322105. El archivo que falta es {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

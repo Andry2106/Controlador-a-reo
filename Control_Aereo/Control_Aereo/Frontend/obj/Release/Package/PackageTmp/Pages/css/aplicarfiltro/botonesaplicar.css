@@ -1,0 +1,19 @@
+﻿.botonescuadro {
+    display: block;
+    align-items: center;
+    background-color: rgba(99, 136, 191, 0.5); /* Color semitransparente */
+    border: 2px solid #ced4da;
+    color: white;
+    border-radius: 4px;
+    height: 35px;
+    width: 300px;
+    margin-top: 10px;
+    margin-left: 138px;
+    margin: auto;
+    margin-block: 20px;
+}
+
+    .botonescuadro:hover {
+        background-color: white;
+        color: #093A84;
+    }

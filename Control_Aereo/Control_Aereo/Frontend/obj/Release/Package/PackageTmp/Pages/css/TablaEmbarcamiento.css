@@ -1,0 +1,22 @@
+﻿.my-custom-gridview {
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+    .my-custom-gridview th {
+        background-color: #093A84;
+        color: white;
+        padding: 10px;
+    }
+
+    .my-custom-gridview td {
+        padding: 10px;
+        border-bottom: 1px solid #ddd;
+    }
+
+.row-selected {
+    background-color: lightblue !important;
+}

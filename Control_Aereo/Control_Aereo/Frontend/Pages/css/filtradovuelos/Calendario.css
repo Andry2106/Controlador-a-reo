@@ -1,0 +1,46 @@
+﻿.calendar-container {
+    text-align: center; /* Centrar el calendario horizontalmente */
+    margin: 0 auto; /* Centrar el calendario horizontalmente */
+    max-width: 200px; /* Ajusta el ancho máximo según sea necesario */
+}
+
+/* Estilos para el calendario */
+.custom-calendar {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 12px; /* Reducir el tamaño de fuente del calendario */
+    background-color: #ffffff; /* Fondo blanco */
+    color: #093A84; /* Color de texto */
+}
+
+    /* Estilos para los días de la semana */
+    .custom-calendar th {
+        background-color: #ffffff;
+        border: 1px solid #dddddd;
+        padding: 4px; /* Reducir el espacio interior */
+        text-align: center;
+    }
+
+    /* Estilos para los días del calendario */
+    .custom-calendar td {
+        border: 1px solid #dddddd;
+        padding: 4px; /* Reducir el espacio interior */
+        text-align: center;
+    }
+
+        /* Estilos para los días del mes */
+        .custom-calendar td a {
+            display: block;
+            color: #093A84; /* Color de texto */
+            text-decoration: none;
+        }
+
+            /* Estilos para los días seleccionados */
+            .custom-calendar td a:hover {
+                background-color: #f0f0f0;
+            }
+
+    /* Estilos para los días fuera del mes */
+    .custom-calendar .other-month {
+        color: #aaaaaa;
+    }

@@ -1,0 +1,27 @@
+﻿.textos2 {
+    display: block;
+    margin-bottom: 10px;
+    padding-block: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    margin: auto;
+    width: 80%;
+    border-radius: 20px;
+    margin-block: 10px;
+}
+
+.tarjeta {
+    border: solid;
+    border-color: #e9e9e9;
+    border-radius: 30px;
+    padding-block: 10px;
+    width: 70%;
+    margin: auto
+}
+
+.elemento {
+    background-color: #e7e7e7;
+    width: 90%;
+    margin: auto;
+    border-radius: 15px
+}
